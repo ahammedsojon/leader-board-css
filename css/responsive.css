@@ -87,16 +87,15 @@
    
 }
 @media (max-width: 480px) {
+    .header{
+        padding: 0 30px;
+    }
     .main-header{
         width: 100%;
-        padding: 10px 0;
     }
     .container{
         width: 100%;
-        padding:  0;
-    }
-    .header{
-        padding: 0 60px;
+        padding: 0;
     }
     .primary-menu{
         display: block;
