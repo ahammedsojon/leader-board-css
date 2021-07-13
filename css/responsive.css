@@ -1,8 +1,8 @@
 @media (min-width:769px) and (max-width:1024px) {
-    .hamburger{
+    .primary-menu{
         display: none;
     }
-    .menu{
+    .header-menu{
         display: block;
     }
     .main-header{
@@ -47,13 +47,22 @@
     .header{
         padding:  0 30px;
     }
-    .hamburger{
+    .primary-menu{
         display: block;
     }
-    .hamburger{
+    .primary-menu .mobile-menu-check:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+    .header-menu{
+        display: none;
+    }
+    .mobile-menu{
         display: block;
     }
-    .menu{
+    
+    .header-menu{
         display: none;
     }
     .section-title{
@@ -89,12 +98,21 @@
     .header{
         padding: 0 60px;
     }
-    .hamburger{
+    .primary-menu{
         display: block;
     }
-    .menu{
+    .primary-menu .mobile-menu-check:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+    .header-menu{
         display: none;
     }
+    .mobile-menu{
+        display: block;
+    }
+  
     .section-title{
         margin-left: 20px;
     }
